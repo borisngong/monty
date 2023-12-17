@@ -9,6 +9,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 
+
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
@@ -89,6 +90,8 @@ void _bd_add(stack_t **stack, unsigned int line_number);
 void _bd_nop(stack_t **stack, unsigned int line_number);
 void _bd_sub(stack_t **stack, unsigned int line_number);
 void _bd_div(stack_t **stack, unsigned int line_number);
+void _bd_mul(stack_t **stack, unsigned int line_number);
+void _bd_mod (stack_t ** stack, unsigned int line_number);
 void handle_memory_allocation_failure(void);
 void handle_file_stream_failure(char *file_name);
 

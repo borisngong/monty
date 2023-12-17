@@ -1,7 +1,5 @@
 #include "monty.h"
-
 arg_t *arg_data = NULL;
-
 /**
  * main - Entry point of the program
  * @argc: The number of command-line arguments
@@ -11,7 +9,6 @@ arg_t *arg_data = NULL;
  */
 int main(int argc, char *argv[])
 {
-	
 	size_t k = 0;
 
 	verify_commandline_arguments(argc);
