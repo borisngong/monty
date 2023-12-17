@@ -92,6 +92,7 @@ void _bd_sub(stack_t **stack, unsigned int line_number);
 void _bd_div(stack_t **stack, unsigned int line_number);
 void _bd_mul(stack_t **stack, unsigned int line_number);
 void _bd_mod (stack_t ** stack, unsigned int line_number);
+int check_is_comment(void);
 void handle_memory_allocation_failure(void);
 void handle_file_stream_failure(char *file_name);
 
