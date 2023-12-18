@@ -5,7 +5,8 @@
  * @stack: represents a pointer to the stack.
  * @line_number: respresents a line number where the add function is called.
  * Return: always void
- */void _bd_add(stack_t **stack, unsigned int line_number)
+ */
+void _bd_add(stack_t **stack, unsigned int line_number)
 {
 	stack_t *temporal1, *temporal2;
 

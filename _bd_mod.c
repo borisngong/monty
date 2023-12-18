@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
- * mod - reponsible for Computing the rest of the division of the second
+ * _bd_mod - reponsible for Computing the rest of the division of the second
  * top element of the stack by the top element of the stack.
  * @stack: represents a pointer to the stack.
  * @line_number: represents a line number where the mod function is called.

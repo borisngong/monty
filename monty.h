@@ -97,5 +97,9 @@ void handle_memory_allocation_failure(void);
 void handle_file_stream_failure(char *file_name);
 void _bd_pchar(stack_t **stack, unsigned int line_number);
 void _bd_pstr(stack_t **stack, unsigned int line_number);
+void _bd_rotl(stack_t **stack, unsigned int line_number);
+void _bd_rotr(stack_t **stack, unsigned int line_number);
+void _bd_stack(stack_t **stack, unsigned int line_number);
+void _bd_queue(stack_t **stack, unsigned int line_number);
 
 #endif /* MONTY_H */
