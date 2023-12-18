@@ -14,7 +14,7 @@ void obtain_instruction(void)
 		{"swap", &_bd_swap}, {"add", &_bd_add},
 		{"nop", &_bd_nop}, {"sub", &_bd_sub},
 		{"div", &_bd_div}, {"mul", &_bd_mul},
-		{"mod", &_bd_mod},
+		{"mod", &_bd_mod}, {"pchar", &_bd_pchar},
 		{NULL, NULL}
 	};
 	if (arg_data->k_substring == 0)

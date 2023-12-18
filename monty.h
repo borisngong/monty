@@ -95,5 +95,6 @@ void _bd_mod (stack_t ** stack, unsigned int line_number);
 int check_is_comment(const char *line);
 void handle_memory_allocation_failure(void);
 void handle_file_stream_failure(char *file_name);
+void _bd_pchar(stack_t **stack, unsigned int line_number);
 
 #endif /* MONTY_H */
